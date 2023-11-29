@@ -10,6 +10,9 @@ body {
     line-height: 1.6;
     padding: 20px;
     background-color: #f4f4f4;
+    width: 800px;
+    border: 1px solid black;
+    margin: 25px 25px;
 }
 
 header {
@@ -18,8 +21,11 @@ header {
 }
 
 .profile-img {
-    width: 150px;
+    width: 250px;
     height: auto;
+    padding: 5px;
+    border-radius: 50%;
+    border: 3px solid black;
 }
 
 h1 {
@@ -28,11 +34,26 @@ h1 {
 
 .bio, .projects {
     margin-bottom: 20px;
+    border: 2px solid black;
+    text-align: center;
 }
 
 a {
     color: #333;
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: purple;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h2 {
+    color: darkgreen;
 }
 
 footer {
